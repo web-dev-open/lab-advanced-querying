@@ -56,7 +56,7 @@ filter:-{founded_year:{$ne:null}}, project:- {name:1, founded_year:1,_id:0}, sor
 
 ### 15. All the companies that have been founded on the first seven days of the month, including the seventh. Sort them by their `acquisition price` in a descending order. Limit the search to 10 documents.
 
-<!-- Your Code Goes Here -->
+filter:- {$and: [{founded_month:{$ne:null}}, {founded_day:{$lte:7}}]}, sort:- {"acquisition.price_amount": -1}
 
 ### 16. All the companies on the 'web' `category` that have more than 4000 employees. Sort them by the amount of employees in ascending order.
 
