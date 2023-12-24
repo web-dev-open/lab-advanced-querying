@@ -1,0 +1,1354 @@
+[{
+  "_id": {
+    "$oid": "52cdef7c4bab8bd675297f02"
+  },
+  "name": "ZYB",
+  "permalink": "zyb",
+  "crunchbase_url": "http://www.crunchbase.com/company/zyb",
+  "homepage_url": "http://zyb.com",
+  "blog_url": "http://blog.zyb.com/",
+  "blog_feed_url": "http://blog.zyb.com/index.php/feed/",
+  "twitter_username": null,
+  "category_code": "mobile",
+  "number_of_employees": 25,
+  "founded_year": null,
+  "founded_month": null,
+  "founded_day": null,
+  "deadpooled_year": null,
+  "deadpooled_month": null,
+  "deadpooled_day": null,
+  "deadpooled_url": null,
+  "tag_list": "mobile, social-networking, socialnetwork",
+  "alias_list": "",
+  "email_address": "contact@zyb.com",
+  "phone_number": "",
+  "description": "Mobile Social Networking",
+  "created_at": "Wed Aug 22 05:14:51 UTC 2007",
+  "updated_at": "Tue Jul 02 03:00:50 UTC 2013",
+  "overview": "<p>ZYB is a mobile phone utility and social networking site. ZYB started in 2005 as a european service to provide easy back-up services for mobile phones. Using this information, they have built a social networking platform based upon this data set. Given the importance of mobile phones in Europe, ZYB has built in Twitter like location based functions into the service. </p>\n\n<p>For more information please see this <a href=\"http://mobilecrunch.com/2006/06/06/mobilecrunch-exclusive-first-look-at-zyb-the-free-data-backup-and-contact-and-calendar-synchronizer-for-your-mobile/\" title=\"MobileCrunch\" rel=\"nofollow\">MobileCrunch</a> article from when ZYB launched.</p>",
+  "image": {
+    "available_sizes": [
+      [
+        [
+          32,
+          32
+        ],
+        "assets/images/resized/0000/4450/4450v3-max-150x150.png"
+      ],
+      [
+        [
+          32,
+          32
+        ],
+        "assets/images/resized/0000/4450/4450v3-max-250x250.png"
+      ],
+      [
+        [
+          32,
+          32
+        ],
+        "assets/images/resized/0000/4450/4450v3-max-450x450.png"
+      ]
+    ],
+    "attribution": null
+  },
+  "products": [
+    {
+      "name": "ZYB | Phone",
+      "permalink": "zyb-phone"
+    },
+    {
+      "name": "ZYB | Life",
+      "permalink": "zyb-life"
+    }
+  ],
+  "relationships": [
+    {
+      "is_past": null,
+      "title": "CEO and Co-Founder",
+      "person": {
+        "first_name": "Tommy",
+        "last_name": "Ahlers",
+        "permalink": "tommy-ahlers"
+      }
+    },
+    {
+      "is_past": null,
+      "title": "CTO",
+      "person": {
+        "first_name": "Patrick",
+        "last_name": "Verdon",
+        "permalink": "patrick-verdon"
+      }
+    },
+    {
+      "is_past": false,
+      "title": "",
+      "person": {
+        "first_name": "Claus",
+        "last_name": "Dahl",
+        "permalink": "claus-dahl"
+      }
+    },
+    {
+      "is_past": false,
+      "title": "Product Director",
+      "person": {
+        "first_name": "Runar",
+        "last_name": "Reistrup",
+        "permalink": "runar-reistrup"
+      }
+    },
+    {
+      "is_past": false,
+      "title": "",
+      "person": {
+        "first_name": "Morten",
+        "last_name": "Just",
+        "permalink": "morten-just"
+      }
+    }
+  ],
+  "competitions": [
+    {
+      "competitor": {
+        "name": "Twitter",
+        "permalink": "twitter"
+      }
+    },
+    {
+      "competitor": {
+        "name": "fring Ltd",
+        "permalink": "fring"
+      }
+    },
+    {
+      "competitor": {
+        "name": "Loopt",
+        "permalink": "loopt"
+      }
+    },
+    {
+      "competitor": {
+        "name": "NewACT",
+        "permalink": "newact"
+      }
+    },
+    {
+      "competitor": {
+        "name": "imity",
+        "permalink": "imity"
+      }
+    },
+    {
+      "competitor": {
+        "name": "Soocial",
+        "permalink": "soocial"
+      }
+    },
+    {
+      "competitor": {
+        "name": "fruux",
+        "permalink": "fruux"
+      }
+    },
+    {
+      "competitor": {
+        "name": "Contails",
+        "permalink": "contails"
+      }
+    },
+    {
+      "competitor": {
+        "name": "Memotoo",
+        "permalink": "memotoo"
+      }
+    }
+  ],
+  "providerships": [
+    {
+      "title": "",
+      "is_past": true,
+      "provider": {
+        "name": "Six Degrees",
+        "permalink": "six-degrees"
+      }
+    }
+  ],
+  "total_money_raised": "€3M",
+  "funding_rounds": [
+    {
+      "id": 389,
+      "round_code": "a",
+      "source_url": "",
+      "source_description": "",
+      "raised_amount": 3000000,
+      "raised_currency_code": "EUR",
+      "funded_year": 2006,
+      "funded_month": 9,
+      "funded_day": 1,
+      "investments": [
+        {
+          "company": null,
+          "financial_org": {
+            "name": "Nordic Venture Partners",
+            "permalink": "nordic-venture-partners"
+          },
+          "person": null
+        }
+      ]
+    },
+    {
+      "id": 2124,
+      "round_code": "angel",
+      "source_url": "",
+      "source_description": "",
+      "raised_amount": null,
+      "raised_currency_code": null,
+      "funded_year": 2005,
+      "funded_month": 1,
+      "funded_day": 1,
+      "investments": [
+        {
+          "company": null,
+          "financial_org": null,
+          "person": {
+            "first_name": "Morten",
+            "last_name": "Lund",
+            "permalink": "morten-lund"
+          }
+        }
+      ]
+    }
+  ],
+  "investments": [],
+  "acquisition": {
+    "price_amount": 31500000,
+    "price_currency_code": "EUR",
+    "term_code": "cash",
+    "source_url": "http://www.techcrunch.com/2008/05/16/danish-mobile-social-network-zyb-acquired-by-vodafone-for-e315-million/",
+    "source_description": "Danish Network ZYB Acquired By Vodafone For â‚¬31.5 million",
+    "acquired_year": 2008,
+    "acquired_month": 5,
+    "acquired_day": 16,
+    "acquiring_company": {
+      "name": "Vodafone",
+      "permalink": "vodafone"
+    }
+  },
+  "acquisitions": [
+    {
+      "price_amount": null,
+      "price_currency_code": "USD",
+      "term_code": null,
+      "source_url": "http://www.techcrunch.com/2008/04/22/confirmed-zyb-bought-imity/",
+      "source_description": "Confirmed: Zyb Bought Imity",
+      "acquired_year": 2008,
+      "acquired_month": 4,
+      "acquired_day": 22,
+      "company": {
+        "name": "imity",
+        "permalink": "imity"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "description": null,
+      "address1": "Esromgade 15, 1-1",
+      "address2": null,
+      "zip_code": "2200",
+      "city": "Copenhagen",
+      "state_code": null,
+      "country_code": "DNK",
+      "latitude": 55.699123,
+      "longitude": 12.541484
+    }
+  ],
+  "milestones": [],
+  "ipo": null,
+  "video_embeds": [],
+  "screenshots": [],
+  "external_links": [],
+  "partners": []
+},
+{
+  "_id": {
+    "$oid": "52cdef7d4bab8bd675298bf3"
+  },
+  "name": "Apertio",
+  "permalink": "apertio",
+  "crunchbase_url": "http://www.crunchbase.com/company/apertio",
+  "homepage_url": "http://www.apertio.com",
+  "blog_url": "",
+  "blog_feed_url": "",
+  "twitter_username": null,
+  "category_code": "mobile",
+  "number_of_employees": null,
+  "founded_year": null,
+  "founded_month": null,
+  "founded_day": null,
+  "deadpooled_year": null,
+  "deadpooled_month": null,
+  "deadpooled_day": null,
+  "deadpooled_url": null,
+  "tag_list": "",
+  "alias_list": null,
+  "email_address": "",
+  "phone_number": "",
+  "description": null,
+  "created_at": "Tue May 27 07:08:56 UTC 2008",
+  "updated_at": "Fri Aug 28 23:39:22 UTC 2009",
+  "overview": "<p>Apertio One provides a single, open, subscriber-centric architecture for current and new generation operators. It aims to eliminate complexity and cost, dramatically reduce new service deployment time, and lay the foundation for IMS in networks.</p>",
+  "image": {
+    "available_sizes": [
+      [
+        [
+          150,
+          41
+        ],
+        "assets/images/resized/0001/9431/19431v1-max-150x150.png"
+      ],
+      [
+        [
+          197,
+          54
+        ],
+        "assets/images/resized/0001/9431/19431v1-max-250x250.png"
+      ],
+      [
+        [
+          197,
+          54
+        ],
+        "assets/images/resized/0001/9431/19431v1-max-450x450.png"
+      ]
+    ],
+    "attribution": null
+  },
+  "products": [],
+  "relationships": [
+    {
+      "is_past": true,
+      "title": "VP Business Development",
+      "person": {
+        "first_name": "Wolfgang",
+        "last_name": "Krause",
+        "permalink": "wolfgang-krause"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Non-Exec Board Director",
+      "person": {
+        "first_name": "Cyril",
+        "last_name": "Bertrand",
+        "permalink": "cyril-bertrand"
+      }
+    }
+  ],
+  "competitions": [],
+  "providerships": [],
+  "total_money_raised": "$30M",
+  "funding_rounds": [
+    {
+      "id": 2405,
+      "round_code": "b",
+      "source_url": "http://www.apertio.com/news-and-events/press-release/1212",
+      "source_description": "",
+      "raised_amount": 30000000,
+      "raised_currency_code": "USD",
+      "funded_year": 2006,
+      "funded_month": 2,
+      "funded_day": 6,
+      "investments": [
+        {
+          "company": null,
+          "financial_org": {
+            "name": "Add Partners",
+            "permalink": "add-partners"
+          },
+          "person": null
+        },
+        {
+          "company": null,
+          "financial_org": {
+            "name": "Deutsche Venture Capital",
+            "permalink": "deutsche-venture-capital"
+          },
+          "person": null
+        },
+        {
+          "company": null,
+          "financial_org": {
+            "name": "Eden Ventures",
+            "permalink": "eden-ventures"
+          },
+          "person": null
+        },
+        {
+          "company": null,
+          "financial_org": {
+            "name": "Motorola Solutions Venture Capital",
+            "permalink": "motorola-solutions-venture-capital"
+          },
+          "person": null
+        },
+        {
+          "company": null,
+          "financial_org": {
+            "name": "The Tokarz Group",
+            "permalink": "the-tokarz-group"
+          },
+          "person": null
+        },
+        {
+          "company": null,
+          "financial_org": {
+            "name": "T-Venture",
+            "permalink": "t-venture"
+          },
+          "person": null
+        }
+      ]
+    }
+  ],
+  "investments": [],
+  "acquisition": {
+    "price_amount": 140000000,
+    "price_currency_code": "EUR",
+    "term_code": null,
+    "source_url": "http://www.techcrunch.com/2008/01/03/nokia-siemens-acquires-apertio-for-e140m/",
+    "source_description": "Nokia Siemens Acquires Apertio For â‚¬140m",
+    "acquired_year": 2008,
+    "acquired_month": 1,
+    "acquired_day": 3,
+    "acquiring_company": {
+      "name": "Nokia Siemens Networks",
+      "permalink": "nokia-siemens-networks"
+    }
+  },
+  "acquisitions": [],
+  "offices": [
+    {
+      "description": null,
+      "address1": "",
+      "address2": "",
+      "zip_code": "BS16 7AR",
+      "city": "Bristol",
+      "state_code": null,
+      "country_code": "GBR",
+      "latitude": 51.499708,
+      "longitude": -2.533334
+    }
+  ],
+  "milestones": [],
+  "ipo": null,
+  "video_embeds": [],
+  "screenshots": [],
+  "external_links": [],
+  "partners": []
+},
+{
+  "_id": {
+    "$oid": "52cdef7d4bab8bd675298f47"
+  },
+  "name": "Greenfield Online",
+  "permalink": "greenfield-online",
+  "crunchbase_url": "http://www.crunchbase.com/company/greenfield-online",
+  "homepage_url": "http://www.greenfield.com/content/index.html",
+  "blog_url": "",
+  "blog_feed_url": "",
+  "twitter_username": "",
+  "category_code": "public_relations",
+  "number_of_employees": null,
+  "founded_year": null,
+  "founded_month": null,
+  "founded_day": null,
+  "deadpooled_year": null,
+  "deadpooled_month": null,
+  "deadpooled_day": null,
+  "deadpooled_url": null,
+  "tag_list": "",
+  "alias_list": "",
+  "email_address": "",
+  "phone_number": "1-866-296-3049",
+  "description": "Consumer Research Provider",
+  "created_at": "Tue Jun 24 22:04:13 UTC 2008",
+  "updated_at": "Sun Sep 16 21:00:26 UTC 2012",
+  "overview": "<p>Greenfield Online provides consumer attitudinal and product information, to consumers to help them make informed decisions about the products and services they wish to purchase; and, to marketers to enable them to better understand their customer.</p>",
+  "image": {
+    "available_sizes": [
+      [
+        [
+          111,
+          150
+        ],
+        "assets/images/resized/0002/0929/20929v5-max-150x150.jpg"
+      ],
+      [
+        [
+          186,
+          250
+        ],
+        "assets/images/resized/0002/0929/20929v5-max-250x250.jpg"
+      ],
+      [
+        [
+          335,
+          450
+        ],
+        "assets/images/resized/0002/0929/20929v5-max-450x450.jpg"
+      ]
+    ],
+    "attribution": null
+  },
+  "products": [],
+  "relationships": [
+    {
+      "is_past": false,
+      "title": "Board of Directors",
+      "person": {
+        "first_name": "Charles",
+        "last_name": "Stryker",
+        "permalink": "charles-stryker"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Chairman",
+      "person": {
+        "first_name": "Peter",
+        "last_name": "Sobiloff",
+        "permalink": "peter-sobiloff"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "CEO and President",
+      "person": {
+        "first_name": "Dean",
+        "last_name": "Wiltse",
+        "permalink": "dean-wiltse"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Senior Vice President, Business Development",
+      "person": {
+        "first_name": "Leigh",
+        "last_name": "Brindeland Moore",
+        "permalink": "leigh-brindeland-moore"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Business Dev Manager",
+      "person": {
+        "first_name": "Gregory",
+        "last_name": "Husadzic",
+        "permalink": "gregory-husadzic"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Board Member",
+      "person": {
+        "first_name": "Jeff",
+        "last_name": "Horing",
+        "permalink": "jeff-horing"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Investor",
+      "person": {
+        "first_name": "Nikitas",
+        "last_name": "Koutoupes",
+        "permalink": "nikitas-koutoupes"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Board Member",
+      "person": {
+        "first_name": "Larry",
+        "last_name": "Handen",
+        "permalink": "larry-handen"
+      }
+    }
+  ],
+  "competitions": [],
+  "providerships": [],
+  "total_money_raised": "$0",
+  "funding_rounds": [],
+  "investments": [],
+  "acquisition": {
+    "price_amount": 40000000,
+    "price_currency_code": "EUR",
+    "term_code": null,
+    "source_url": "http://www.research-live.com/news/m-and-a/toluna-buys-greenfield-online-survey-business-for-$40m/4000346.article",
+    "source_description": "Toluna buys Greenfield Online survey business for $40m",
+    "acquired_year": 2009,
+    "acquired_month": 6,
+    "acquired_day": 26,
+    "acquiring_company": {
+      "name": "Toluna",
+      "permalink": "toluna"
+    }
+  },
+  "acquisitions": [
+    {
+      "price_amount": 154000000,
+      "price_currency_code": "USD",
+      "term_code": "cash_and_stock",
+      "source_url": "http://www.prnewswire.co.uk/cgi/news/release?id=143552",
+      "source_description": "Greenfield Online Acquires CIAO AG for US$154 Million, Increases Share of European Survey Solutions Market",
+      "acquired_year": 2005,
+      "acquired_month": 4,
+      "acquired_day": 7,
+      "company": {
+        "name": "Ciao",
+        "permalink": "ciao"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "description": "",
+      "address1": "21 River Rd",
+      "address2": "",
+      "zip_code": "06897",
+      "city": "Wilton",
+      "state_code": "CT",
+      "country_code": "USA",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "milestones": [],
+  "ipo": null,
+  "video_embeds": [],
+  "screenshots": [
+    {
+      "available_sizes": [
+        [
+          [
+            150,
+            87
+          ],
+          "assets/images/resized/0005/4274/54274v1-max-150x150.jpg"
+        ],
+        [
+          [
+            250,
+            146
+          ],
+          "assets/images/resized/0005/4274/54274v1-max-250x250.jpg"
+        ],
+        [
+          [
+            450,
+            263
+          ],
+          "assets/images/resized/0005/4274/54274v1-max-450x450.jpg"
+        ]
+      ],
+      "attribution": null
+    }
+  ],
+  "external_links": [
+    {
+      "external_url": "http://www.pr-inside.com/greenfield-online-enters-into-definitive-agreement-r644915.htm",
+      "title": "Greenfield Online Enters into Definitive Agreement to be Acquired by Quadrangle"
+    }
+  ],
+  "partners": []
+},
+{
+  "_id": {
+    "$oid": "52cdef7e4bab8bd67529a536"
+  },
+  "name": "Webedia",
+  "permalink": "webedia",
+  "crunchbase_url": "http://www.crunchbase.com/company/webedia",
+  "homepage_url": "http://purepeople.com",
+  "blog_url": "",
+  "blog_feed_url": "http://www.purepeople.com/rss",
+  "twitter_username": "purepeople",
+  "category_code": "web",
+  "number_of_employees": 50,
+  "founded_year": 2007,
+  "founded_month": 11,
+  "founded_day": 1,
+  "deadpooled_year": null,
+  "deadpooled_month": null,
+  "deadpooled_day": null,
+  "deadpooled_url": null,
+  "tag_list": "web, news, people",
+  "alias_list": "",
+  "email_address": "redaction@purepeople.fr",
+  "phone_number": "+33156799102",
+  "description": "",
+  "created_at": "Sat Nov 29 18:18:06 UTC 2008",
+  "updated_at": "Fri May 24 07:18:38 UTC 2013",
+  "overview": "<p>The reference site on the news of the stars to brands\npositioning</p>\n\n<p>With 80 news per day Purepeople.com is the most comprehensive website on the French news stars.</p>\n\n<p>Disney Co is bound by a strict editorial policy regarding the respect for private life and the image of stars.</p>\n\n<p>The information provided by Purepeople.com intersects three worlds:</p>\n\n<pre><code> The Entertainment: with lots of information on the Cinema, the news of shootings, the cult TV series, the highlights of PAF, music news, coverage of major concerts. In short, the news of the stars where they exercise their talents.\n Glamour: with significant resources deployed to cover major events (Cannes, galas, large-type &amp;amp;#8220;Oscar&amp;amp;#8221; and &amp;amp;#8220;Caesar&amp;amp;#8221; parties, premieres and movie theater &amp;amp;#8230;). The news of the &amp;amp;#8220;beautiful people&amp;amp;#8221; in representation.\n The &amp;amp;#8220;slices of life&amp;amp;#8221; pink book, weddings, celebrity looks &amp;amp;#8230; The part of their private sphere that wish Stars show their public &amp;amp;#8230;\n</code></pre>\n\n<p>audience</p>\n\n<p>Disney Co is a leading site on the target women, youth, CSP +.</p>\n\n<p>Purepeople.com: A powerful support for all brands and advertisers who seek to communicate with a target of CSP + young women by partnering with quality content using the prescription strength of stars.\nthe Editors</p>",
+  "image": {
+    "available_sizes": [
+      [
+        [
+          150,
+          37
+        ],
+        "assets/images/resized/0004/0742/40742v1-max-150x150.png"
+      ],
+      [
+        [
+          250,
+          63
+        ],
+        "assets/images/resized/0004/0742/40742v1-max-250x250.png"
+      ],
+      [
+        [
+          324,
+          82
+        ],
+        "assets/images/resized/0004/0742/40742v1-max-450x450.png"
+      ]
+    ],
+    "attribution": null
+  },
+  "products": [],
+  "relationships": [
+    {
+      "is_past": false,
+      "title": "Board",
+      "person": {
+        "first_name": "Alain",
+        "last_name": "Caffi",
+        "permalink": "alain-caffi"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Java Programmer",
+      "person": {
+        "first_name": "Siim",
+        "last_name": "Raud",
+        "permalink": "siim-raud"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Owner",
+      "person": {
+        "first_name": "Cristian",
+        "last_name": "Parrino",
+        "permalink": "cristian-parrino"
+      }
+    }
+  ],
+  "competitions": [],
+  "providerships": [],
+  "total_money_raised": "$0",
+  "funding_rounds": [],
+  "investments": [],
+  "acquisition": {
+    "price_amount": 70000000,
+    "price_currency_code": "EUR",
+    "term_code": null,
+    "source_url": "http://www.clipperton.net/transactions/webedia/",
+    "source_description": "Webedia, one of the leading digital media groups in France, is acquired by Fimalac Group in a €70m+ transaction.",
+    "acquired_year": 2013,
+    "acquired_month": 9,
+    "acquired_day": 12,
+    "acquiring_company": {
+      "name": "Fimalac Group",
+      "permalink": "fimalac-group"
+    }
+  },
+  "acquisitions": [],
+  "offices": [
+    {
+      "description": "",
+      "address1": "",
+      "address2": "",
+      "zip_code": "",
+      "city": "Paris",
+      "state_code": null,
+      "country_code": "FRA",
+      "latitude": 48.856614,
+      "longitude": 2.3522219
+    }
+  ],
+  "milestones": [],
+  "ipo": null,
+  "video_embeds": [],
+  "screenshots": [
+    {
+      "available_sizes": [
+        [
+          [
+            150,
+            93
+          ],
+          "assets/images/resized/0004/0743/40743v1-max-150x150.png"
+        ],
+        [
+          [
+            250,
+            155
+          ],
+          "assets/images/resized/0004/0743/40743v1-max-250x250.png"
+        ],
+        [
+          [
+            450,
+            279
+          ],
+          "assets/images/resized/0004/0743/40743v1-max-450x450.png"
+        ]
+      ],
+      "attribution": null
+    }
+  ],
+  "external_links": [],
+  "partners": []
+},
+{
+  "_id": {
+    "$oid": "52cdef7e4bab8bd67529a729"
+  },
+  "name": "Wayfinder",
+  "permalink": "wayfinder",
+  "crunchbase_url": "http://www.crunchbase.com/company/wayfinder",
+  "homepage_url": "http://www.wayfinder.com",
+  "blog_url": "http://www.wayfinder.com/?id=3848&lang=en-US",
+  "blog_feed_url": "http://www.wayfinder.com/?tid=customrssfeeder&rid=5131",
+  "twitter_username": null,
+  "category_code": null,
+  "number_of_employees": null,
+  "founded_year": null,
+  "founded_month": null,
+  "founded_day": null,
+  "deadpooled_year": null,
+  "deadpooled_month": null,
+  "deadpooled_day": null,
+  "deadpooled_url": null,
+  "tag_list": "",
+  "alias_list": "",
+  "email_address": "",
+  "phone_number": "",
+  "description": null,
+  "created_at": "Tue Dec 09 07:51:07 UTC 2008",
+  "updated_at": "Sat Dec 13 14:30:41 UTC 2008",
+  "overview": "<p>Wayfinder is a supplier of innovative location and navigation services for mobile phones. User-friendliness, the core attribute of all Wayfinderâ€™s applications and services, makes it easy for consumers to take advantage of cutting edge innovation for both business and leisure use.</p>\n\n<p>Wayfinderâ€™s portfolio of location applications includes the flagship product, Wayfinder Navigator as well as successful products such as Wayfinder Earth, Wayfinder Access, the new Wayfinder Active. All of the above services are available in 19 languages to a steadily growing base of unique users that now exceeds 2 million global users.</p>\n\n<p>Clients and partners include the mobile phone manufacturers Sony Ericsson, Nokia and Blackberry (RIM), as well as the mobile phone operators Airtel, Telenor, Telefonica, Vodafone, O2, AT&amp;T, Orange, A1 Mobilkom Austria, 3, SFR and Tele2. The family of partners also includes strategic content providers such as Tele Atlas, Navteq, MapmyIndia, Dmapas and Wcities.</p>\n\n<p>Wayfinder has been listed on the NGM Equity Stock Exchange since October 21, 2005. The head office is located in Stockholm, Sweden.</p>\n\n<p>Source: wayfinder.com</p>",
+  "image": {
+    "available_sizes": [
+      [
+        [
+          150,
+          34
+        ],
+        "assets/images/resized/0003/1332/31332v1-max-150x150.png"
+      ],
+      [
+        [
+          250,
+          57
+        ],
+        "assets/images/resized/0003/1332/31332v1-max-250x250.png"
+      ],
+      [
+        [
+          263,
+          60
+        ],
+        "assets/images/resized/0003/1332/31332v1-max-450x450.png"
+      ]
+    ],
+    "attribution": null
+  },
+  "products": [],
+  "relationships": [
+    {
+      "is_past": false,
+      "title": "Investor",
+      "person": {
+        "first_name": "Jeff",
+        "last_name": "Wald",
+        "permalink": "jeff-wald"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "SVP Sales and Marketing",
+      "person": {
+        "first_name": "Bob",
+        "last_name": "Ilievski",
+        "permalink": "bob-ilievski"
+      }
+    }
+  ],
+  "competitions": [],
+  "providerships": [],
+  "total_money_raised": "$0",
+  "funding_rounds": [],
+  "investments": [],
+  "acquisition": {
+    "price_amount": 24000000,
+    "price_currency_code": "EUR",
+    "term_code": null,
+    "source_url": "http://www.techcrunch.com/2008/12/08/vodafone-acquires-swedens-wayfinder-for-e24-million/",
+    "source_description": "Vodafone Acquires Sweden's WayFinder For â‚¬24 Million",
+    "acquired_year": 2008,
+    "acquired_month": 12,
+    "acquired_day": 8,
+    "acquiring_company": {
+      "name": "Vodafone",
+      "permalink": "vodafone"
+    }
+  },
+  "acquisitions": [],
+  "offices": [
+    {
+      "description": "",
+      "address1": "",
+      "address2": "",
+      "zip_code": "",
+      "city": "Stockholm",
+      "state_code": null,
+      "country_code": "SWE",
+      "latitude": 59.3327881,
+      "longitude": 18.0644881
+    }
+  ],
+  "milestones": [],
+  "ipo": null,
+  "video_embeds": [],
+  "screenshots": [],
+  "external_links": [],
+  "partners": []
+},
+{
+  "_id": {
+    "$oid": "52cdef7e4bab8bd67529b747"
+  },
+  "name": "Tuenti Technologies",
+  "permalink": "tuenti-technologies",
+  "crunchbase_url": "http://www.crunchbase.com/company/tuenti-technologies",
+  "homepage_url": "http://www.tuenti.com",
+  "blog_url": "http://blog.tuenti.com/",
+  "blog_feed_url": "http://blog.tuenti.com/feed/",
+  "twitter_username": "tuenti",
+  "category_code": "social",
+  "number_of_employees": 170,
+  "founded_year": 2006,
+  "founded_month": 5,
+  "founded_day": 1,
+  "deadpooled_year": null,
+  "deadpooled_month": null,
+  "deadpooled_day": null,
+  "deadpooled_url": null,
+  "tag_list": "social-network, spain",
+  "alias_list": "",
+  "email_address": "zaryn@tuenti.com",
+  "phone_number": "+34 914 294 039",
+  "description": "Social Network",
+  "created_at": "Wed Apr 15 15:07:37 UTC 2009",
+  "updated_at": "Tue Dec 10 05:33:09 UTC 2013",
+  "overview": "<p>Tuenti is a Madrid-based, social networking website that has been referred to as the &#8220;Spanish Facebook.&#8221; Tuenti, pronounced in Spanish, sounds like Twenty in English. The name, however, actually comes from &#8220;tu enti[dad],&#8221; meaning &#8220;your entity.&#8221; The site is targeted at the Spanish audience.</p>\n\n<p>Zaryn Dentzel, CEO, and Kenny Bentley, the lead programmer, came to Spain after having worked in social networking in the United States. Kenny Bentley is credited with coding most of the original platform from a small office in the north of Madrid in Spring 2006, while Zaryn Dentzel led the project and was involved in much of the design and strategy.</p>\n\n<p>Tuenti features many tools common to social-networking sites. It allows users to set up a profile, upload photos, link videos and connect with friends. Many other utilities, such as the ability to create events, are also offered. Unlike similar social networking sites which feature banner advertisements, Tuenti has opted out of these traditional forms of &#8220;noisy&#8221; and obstructive advertising.</p>\n\n<p>According to the Google Annual Search Report, &#8220;tuenti&#8221; was the fourth fastest-rising global search term in 2008, and Alexa Internet ranks the site as one of the top-ten most visited in Spain. It is estimated that there are more than 5 million users, making it the country&#8217;s most popular social network.</p>\n\n<p>In August 4, 2010, Tuenti was acquired by Telefonica for 70 million. The organization now employees from countries around the world, including Spain, the U.S., Sweden, Germany, Poland, the UK and Portugal.</p>",
+  "image": {
+    "available_sizes": [
+      [
+        [
+          150,
+          35
+        ],
+        "assets/images/resized/0004/3107/43107v19-max-150x150.png"
+      ],
+      [
+        [
+          250,
+          58
+        ],
+        "assets/images/resized/0004/3107/43107v19-max-250x250.png"
+      ],
+      [
+        [
+          450,
+          105
+        ],
+        "assets/images/resized/0004/3107/43107v19-max-450x450.png"
+      ]
+    ],
+    "attribution": null
+  },
+  "products": [],
+  "relationships": [
+    {
+      "is_past": false,
+      "title": "Founder",
+      "person": {
+        "first_name": "Felix",
+        "last_name": "Ruiz",
+        "permalink": "felix-ruiz"
+      }
+    },
+    {
+      "is_past": false,
+      "title": "Founder/President",
+      "person": {
+        "first_name": "Zaryn",
+        "last_name": "Dentzel",
+        "permalink": "zaryn-dentzel"
+      }
+    },
+    {
+      "is_past": false,
+      "title": "Founder",
+      "person": {
+        "first_name": "Kenny",
+        "last_name": "Bentley",
+        "permalink": "kenny-bentley"
+      }
+    },
+    {
+      "is_past": false,
+      "title": "Software Engineer",
+      "person": {
+        "first_name": "Javier",
+        "last_name": "Mellado",
+        "permalink": "javier-mellado"
+      }
+    },
+    {
+      "is_past": false,
+      "title": "Software Engineer",
+      "person": {
+        "first_name": "Ignacio",
+        "last_name": "de Soto",
+        "permalink": "ignacio-de-soto"
+      }
+    },
+    {
+      "is_past": false,
+      "title": "Systems Engineer",
+      "person": {
+        "first_name": "Manuel",
+        "last_name": "ArÃ³stegui",
+        "permalink": "manuel-arstegui"
+      }
+    },
+    {
+      "is_past": false,
+      "title": "Barcelona Design Lead",
+      "person": {
+        "first_name": "Christopher",
+        "last_name": "Grant",
+        "permalink": "christopher-grant"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Founder",
+      "person": {
+        "first_name": "Adeyemi",
+        "last_name": "Ajao",
+        "permalink": "adeyemi-ajao"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Founder",
+      "person": {
+        "first_name": "Joaquin",
+        "last_name": "Ayuso",
+        "permalink": "joaquin-ayuso"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Operations Team Manager",
+      "person": {
+        "first_name": "James",
+        "last_name": "Chivers",
+        "permalink": "james-chivers"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Engineering/Product Manager",
+      "person": {
+        "first_name": "Tomasz",
+        "last_name": "Matuszczyk",
+        "permalink": "tomasz-matuszczyk-2"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Board President",
+      "person": {
+        "first_name": "Bernardo",
+        "last_name": "Hernandez",
+        "permalink": "bernardo-hernandez"
+      }
+    },
+    {
+      "is_past": true,
+      "title": "Strategy Consultant",
+      "person": {
+        "first_name": "Felipe",
+        "last_name": "Navio",
+        "permalink": "felipe-navio"
+      }
+    }
+  ],
+  "competitions": [
+    {
+      "competitor": {
+        "name": "Facebook",
+        "permalink": "facebook"
+      }
+    },
+    {
+      "competitor": {
+        "name": "Twitter",
+        "permalink": "twitter"
+      }
+    },
+    {
+      "competitor": {
+        "name": "Sonico",
+        "permalink": "sonico"
+      }
+    },
+    {
+      "competitor": {
+        "name": "Wamba",
+        "permalink": "wamba"
+      }
+    }
+  ],
+  "providerships": [],
+  "total_money_raised": "€9M",
+  "funding_rounds": [
+    {
+      "id": 17186,
+      "round_code": "unattributed",
+      "source_url": "",
+      "source_description": "EDGAR",
+      "raised_amount": 9000000,
+      "raised_currency_code": "EUR",
+      "funded_year": 2010,
+      "funded_month": 3,
+      "funded_day": 24,
+      "investments": [
+        {
+          "company": null,
+          "financial_org": {
+            "name": "Qualitas Equity Partners",
+            "permalink": "qualitas-equity-partners"
+          },
+          "person": null
+        }
+      ]
+    }
+  ],
+  "investments": [],
+  "acquisition": {
+    "price_amount": 70000000,
+    "price_currency_code": "EUR",
+    "term_code": "cash",
+    "source_url": "http://financial.tmcnet.com/mergers-acquisitions/news/2010/08/05/4940696.htm",
+    "source_description": "'Telefonica confirms Tuenti stake acquisition'",
+    "acquired_year": 1974,
+    "acquired_month": 7,
+    "acquired_day": 7,
+    "acquiring_company": {
+      "name": "Telefonica",
+      "permalink": "telefonica"
+    }
+  },
+  "acquisitions": [],
+  "offices": [
+    {
+      "description": "",
+      "address1": "Plaza Cortes 2",
+      "address2": "",
+      "zip_code": "",
+      "city": "Madrid",
+      "state_code": null,
+      "country_code": "ESP",
+      "latitude": 40.4158236,
+      "longitude": -3.696277
+    }
+  ],
+  "milestones": [],
+  "ipo": null,
+  "video_embeds": [],
+  "screenshots": [
+    {
+      "available_sizes": [
+        [
+          [
+            150,
+            71
+          ],
+          "assets/images/resized/0014/5576/145576v7-max-150x150.jpg"
+        ],
+        [
+          [
+            250,
+            119
+          ],
+          "assets/images/resized/0014/5576/145576v7-max-250x250.jpg"
+        ],
+        [
+          [
+            450,
+            214
+          ],
+          "assets/images/resized/0014/5576/145576v7-max-450x450.jpg"
+        ]
+      ],
+      "attribution": null
+    }
+  ],
+  "external_links": [],
+  "partners": []
+},
+{
+  "_id": {
+    "$oid": "52cdef7f4bab8bd67529c0cf"
+  },
+  "name": "BioMed Central",
+  "permalink": "biomed-central",
+  "crunchbase_url": "http://www.crunchbase.com/company/biomed-central",
+  "homepage_url": "http://www.biomedcentral.com",
+  "blog_url": "",
+  "blog_feed_url": "",
+  "twitter_username": "",
+  "category_code": "ecommerce",
+  "number_of_employees": null,
+  "founded_year": 2000,
+  "founded_month": null,
+  "founded_day": null,
+  "deadpooled_year": null,
+  "deadpooled_month": null,
+  "deadpooled_day": null,
+  "deadpooled_url": null,
+  "tag_list": null,
+  "alias_list": "",
+  "email_address": "info@biomedcentral.com",
+  "phone_number": "44-(0)-20-3192-2000",
+  "description": "",
+  "created_at": "Fri Jun 19 11:47:23 UTC 2009",
+  "updated_at": "Sat Aug 01 20:52:43 UTC 2009",
+  "overview": "<p>All original research articles published by BioMed Central are made freely and permanently accessible online immediately upon publication. BioMed Central views open access to research as essential in order to ensure the rapid and efficient communication of research findings.</p>",
+  "image": {
+    "available_sizes": [
+      [
+        [
+          150,
+          34
+        ],
+        "assets/images/resized/0004/9656/49656v1-max-150x150.png"
+      ],
+      [
+        [
+          250,
+          57
+        ],
+        "assets/images/resized/0004/9656/49656v1-max-250x250.png"
+      ],
+      [
+        [
+          260,
+          60
+        ],
+        "assets/images/resized/0004/9656/49656v1-max-450x450.png"
+      ]
+    ],
+    "attribution": null
+  },
+  "products": [],
+  "relationships": [
+    {
+      "is_past": false,
+      "title": "Software Engineer/Data Mining Engineer",
+      "person": {
+        "first_name": "Rizwan",
+        "last_name": "Idrees",
+        "permalink": "rizwan-idrees"
+      }
+    }
+  ],
+  "competitions": [],
+  "providerships": [],
+  "total_money_raised": "$0",
+  "funding_rounds": [],
+  "investments": [],
+  "acquisition": {
+    "price_amount": 43400000,
+    "price_currency_code": "EUR",
+    "term_code": null,
+    "source_url": "http://www.springer-sbm.com/index.php?id=291&backPID=131&L=0&tx_tnc_news=4970&cHash=56b1d882b2",
+    "source_description": "Springer to acquire BioMed Central Group ",
+    "acquired_year": 2008,
+    "acquired_month": 10,
+    "acquired_day": 6,
+    "acquiring_company": {
+      "name": "Springer",
+      "permalink": "springer"
+    }
+  },
+  "acquisitions": [],
+  "offices": [
+    {
+      "description": "",
+      "address1": "Floor 6, 236 Gray's Inn Road",
+      "address2": "",
+      "zip_code": "WC1X 8HL",
+      "city": "London",
+      "state_code": null,
+      "country_code": "GBR",
+      "latitude": 51.5186118,
+      "longitude": -0.111509
+    }
+  ],
+  "milestones": [],
+  "ipo": null,
+  "video_embeds": [],
+  "screenshots": [
+    {
+      "available_sizes": [
+        [
+          [
+            150,
+            80
+          ],
+          "assets/images/resized/0004/9662/49662v1-max-150x150.jpg"
+        ],
+        [
+          [
+            250,
+            134
+          ],
+          "assets/images/resized/0004/9662/49662v1-max-250x250.jpg"
+        ],
+        [
+          [
+            450,
+            242
+          ],
+          "assets/images/resized/0004/9662/49662v1-max-450x450.jpg"
+        ]
+      ],
+      "attribution": null
+    }
+  ],
+  "external_links": [],
+  "partners": []
+}]
