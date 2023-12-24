@@ -5,7 +5,12 @@
 
 <!-- Your Code Goes Here -->
 ```
-Query: {name: "Babelgum"}, projection: {name: 1}
+Query: {
+  name: "Babelgum"
+},
+projection: {
+  name: 1
+}
 ```
 
 
@@ -21,7 +26,13 @@ db.getCollection('companies').find(
 
 <!-- Your Code Goes Here -->
 ```
-Query: {number_of_employees: {$gt: 5000}}, Sort: {number_of_employees: 1}
+Query: {
+  number_of_employees:
+    {$gt: 5000}
+},
+Sort: {
+  number_of_employees: 1
+}
 Limit: 20
 ```
 
@@ -38,10 +49,12 @@ db.getCollection('companies')
 
 <!-- Your Code Goes Here -->
 ```
-  Query: founded_year: {
+  Query: {
+  founded_year: {
     $gte: 2000,
     $lte: 2005
   }
+}
 Projection: {
   name: 1,
   founded_year: 1
