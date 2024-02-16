@@ -1,0 +1,35 @@
+﻿=== Verbose logging started: 2024-02-21  16:20:52  Build type: SHIP UNICODE 5.00.10011.00  Calling process: C:\WINDOWS\system32\msiexec.exe ===
+MSI (c) (30:A0) [16:20:52:466]: Font created.  Charset: Req=0, Ret=0, Font: Req=MS Shell Dlg, Ret=MS Shell Dlg
+
+MSI (c) (30:A0) [16:20:52:466]: Font created.  Charset: Req=0, Ret=0, Font: Req=MS Shell Dlg, Ret=MS Shell Dlg
+
+MSI (c) (30:60) [16:20:52:518]: Resetting cached policy values
+MSI (c) (30:60) [16:20:52:518]: Machine policy value 'Debug' is 0
+MSI (c) (30:60) [16:20:52:518]: ******* RunEngine:
+           ******* Product: mongodb-windows-x86_64-7.0-signed.msi
+           ******* Action: 
+           ******* CommandLine: **********
+MSI (c) (30:60) [16:20:52:519]: Client-side and UI is none or basic: Running entire install on the server.
+MSI (c) (30:60) [16:20:52:519]: Grabbed execution mutex.
+MSI (c) (30:60) [16:20:52:582]: Cloaking enabled.
+MSI (c) (30:60) [16:20:52:582]: Attempting to enable all disabled privileges before calling Install on Server
+MSI (c) (30:60) [16:20:52:588]: Incrementing counter to disable shutdown. Counter after increment: 0
+MSI (s) (78:B4) [16:20:52:606]: Running installation inside multi-package transaction C:\Users\Prashanth\lab-advanced-querying\mongodb-windows-x86_64-7.0-signed.msi
+MSI (s) (78:B4) [16:20:52:606]: Grabbed execution mutex.
+MSI (s) (78:44) [16:20:52:612]: Resetting cached policy values
+MSI (s) (78:44) [16:20:52:612]: Machine policy value 'Debug' is 0
+MSI (s) (78:44) [16:20:52:612]: ******* RunEngine:
+           ******* Product: C:\Users\helip\lab-advanced-querying\mongodb-windows-x86_64-7.0-signed.msi
+           ******* Action: 
+           ******* CommandLine: **********
+MSI (s) (78:44) [16:20:52:613]: Note: 1: 2203 2: C:\Users\Prashanth\lab-advanced-querying\mongodb-windows-x86_64-7.0-signed.msi 3: -2147287038 
+MSI (s) (78:44) [16:20:52:614]: MainEngineThread is returning 2
+MSI (s) (78:B4) [16:20:52:617]: User policy value 'DisableRollback' is 0
+MSI (s) (78:B4) [16:20:52:617]: Machine policy value 'DisableRollback' is 0
+MSI (s) (78:B4) [16:20:52:617]: Incrementing counter to disable shutdown. Counter after increment: 0
+MSI (s) (78:B4) [16:20:52:617]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (78:B4) [16:20:52:618]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (78:B4) [16:20:52:619]: Decrementing counter to disable shutdown. If counter >= 0, shutdown will be denied.  Counter after decrement: -1
+MSI (c) (30:60) [16:20:52:621]: Decrementing counter to disable shutdown. If counter >= 0, shutdown will be denied.  Counter after decrement: -1
+MSI (c) (30:60) [16:20:52:623]: MainEngineThread is returning 2
+=== Verbose logging stopped: 2024-01-21  16:20:52 ===
