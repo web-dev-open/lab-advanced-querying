@@ -59,12 +59,14 @@ Sort{"ipo.valuation_amount:-1"}
 <!-- Your Code Goes Here -->
 Project{number_of_employees:1}
 Sort{number_of_employees:-1}
+Limit:10
 
 ### 11. All the companies founded on the second semester of the year. Limit your search to 1000 companies.
 
 <!-- Your Code Goes Here -->
 Filter{founded_month:{$gte:7}}
 Project{name:1,founded_month:1}
+Limit:1000
 
 ### 12. All the companies founded before 2000 that have an acquisition amount of more than 10.000.000
 
@@ -91,7 +93,7 @@ Sort{founded_year:-1}
 
 <!-- Your Code Goes Here -->
 Filter{founded_day:{$lte:7}}
-Project{name:1,founded_day:7}
+Project{name:1,founded_day:1}
 Sort{"acquisition.price_amount":-1}
 Limit:10
 
@@ -99,15 +101,27 @@ Limit:10
 ### 16. All the companies on the 'web' `category` that have more than 4000 employees. Sort them by the amount of employees in ascending order.
 
 <!-- Your Code Goes Here -->
+Filter{category_code:"web", number_of_employees:{$gt:4000}}
+Project{name:1,number_of_employees:1}
+Sort{number_of_employees:1}
+
 
 ### 17. All the companies whose acquisition amount is more than 10.000.000, and currency is 'EUR'.
 
 <!-- Your Code Goes Here -->
-
+Filter{"acquisitions.price_currency_code":"EUR", "acquisitions.price_amount":{$gt:10000000}}
+Project{name:1}
 ### 18. All the companies that have been acquired on the first trimester of the year. Limit the search to 10 companies, and retrieve only their `name` and `acquisition` fields.
 
 <!-- Your Code Goes Here -->
+Filter{"acquisition.acquired_month":{$lte:3}}
+Project{name:1,acquisition:1}
+Limit: 10
 
 ### 19. All the companies that have been founded between 2000 and 2010, but have not been acquired before 2011.
 
 <!-- Your Code Goes Here -->
+Filter{founded_year:{$gte:2000, $lt:2010},
+"acquisition.acquired_year":{$not:{$lt:2011}}}
+Project{name:1,acquisition:1,founded_year:1}
+
