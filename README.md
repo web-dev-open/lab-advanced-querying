@@ -2,37 +2,37 @@
 
 # MongoDB | Compass CRUD
 
-  
+
 
 ## Introduction
 
-  
+
 
 We are back with our queries! :wink:
 
-  
+
 
 We have learned some super useful query operators that will helps us to make much better queries to retrieve the data we need. For this lab, we will be using the **Crunchbase** database. Please keep reading and work on the following iterations.
 
-  
+
 
 ## Requirements
 
-  
+
 
 - Fork this repo
 
 - Clone this repo
 
-  
+
 
 ## Submission
 
-  
+
 
 - Upon completion, run the following commands
 
-  
+
 
 ```
 
@@ -44,27 +44,27 @@ $ git push origin master
 
 ```
 
-  
+
 
 - Create Pull Request so we can check up your work.
 
-  
+
 
 ## Deliverables
 
-  
+
 
 Since we will be querying our database from Mongo Compass, you will need to copy/paste the `query`, `projection`, `sort`, `skip` and `limit` you entered on Mongo Compass. In the `queries.md` file, you will find the instructions about the queries you need to do, and a field to fill the answers.
 
-  
+
 
 ### Example
 
-  
+
 
 1. This is an example
 
-  
+
 
 -  **`query`**: /_You should copy/paste the query in here_/
 
@@ -76,27 +76,27 @@ Since we will be querying our database from Mongo Compass, you will need to copy
 
 -  **`limit`**: /_You should copy/paste the limit in here_/
 
-  
+
 
 ## Instructions
 
-  
+
 
 ### Iteration 1
 
-  
+
 
 First, we need to import the database we will be using for the `lab`. We will use the Crunchbase database. Crunchbase is the premier destination for discovering industry trends, investments, and news about hundreds of thousands of companies globally. From startups to Fortune 500s, Crunchbase is recognized as the primary source of company intelligence by millions of users globally.
 
-  
+
 
 The database contains more than 18k documents. Each document holds the data about each of the companies. A document looks like the following:
 
-  
+
 
 ![image](https://user-images.githubusercontent.com/23629340/36494916-d6db1770-1733-11e8-903e-5119b3c1b688.png)
 
-  
+
 
 1. You will find the `.zip` file of the database on the **lab** folder.
 
@@ -104,11 +104,11 @@ The database contains more than 18k documents. Each document holds the data abou
 
 3. Navigate to this lab's folder in your terminal, and when inside, import the database to Mongo using the following command:
 
-  
+
 
 **When running the `mongoimport` you should be located in the same folder as the `data.json` file.**
 
-  
+
 
 ```bash
 
@@ -116,70 +116,608 @@ $ mongoimport --db companiesDB --collection companies --file data.json
 
 ```
 
-  
+
 
 What this mongoimport will do for us is to create a database named _companiesDB_, and inside the database will create a collection named _companies_ which will be fed with _data.json_.
 
-  
+
 
 _Side note_: In case errors or hanging with no response when running this command, add [--jsonArray](https://docs.mongodb.com/manual/reference/program/mongoimport/#cmdoption-mongoimport-jsonarray) at the end of the previous command.
 
-  
+
 
 4. Check on Mongo Compass if everything goes ok:
 
-  
+
 
 ![image](https://user-images.githubusercontent.com/23629340/36534191-1f1bc5ec-17c6-11e8-9463-4945679b98c0.png)
 
-  
+
 
 ### Iteration 2
 
-  
+
 
 You already know how this goes, so let's start working:
 
-  
+
 
 1. All the companies whose name match 'Babelgum'. Retrieve only their `name` field.
 
+
+You said:
+Since we will be querying our database from Mongo Compass, you will need to copy/paste the query, projection, sort, skip and limit you entered on Mongo Compass. In the queries.md file, you will find the instructions about the queries you need to do, and a field to fill the answers.
+
+Example
+This is an example
+query: /You should copy/paste the query in here/
+
+projection: /You should copy/paste the projection in here/
+
+sort: /You should copy/paste the sort in here/
+
+skip: /You should copy/paste the skip in here/
+
+limit: /You should copy/paste the limit in here/
+
+Instructions
+Iteration 1
+First, we need to import the database we will be using for the lab. We will use the Crunchbase database. Crunchbase is the premier destination for discovering industry trends, investments, and news about hundreds of thousands of companies globally. From startups to Fortune 500s, Crunchbase is recognized as the primary source of company intelligence by millions of users globally.
+
+The database contains more than 18k documents. Each document holds the data about each of the companies. A document looks like the following:
+
+image
+
+You will find the .zip file of the database on the lab folder.
+
+Unzip the file
+
+Navigate to this lab's folder in your terminal, and when inside, import the database to Mongo using the following command:
+
+When running the mongoimport you should be located in the same folder as the data.json file.
+
+$ mongoimport --db companiesDB --collection companies --file data.json
+What this mongoimport will do for us is to create a database named companiesDB, and inside the database will create a collection named companies which will be fed with data.json.
+
+Side note: In case errors or hanging with no response when running this command, add --jsonArray at the end of the previous command.
+
+Check on Mongo Compass if everything goes ok:
+image
+
+Iteration 2
+You already know how this goes, so let's start working:
+
+All the companies whose name match 'Babelgum'. Retrieve only their name field.
+
+All the companies that have more than 5000 employees. Limit the search to 20 companies and sort them by number of employees.
+
+All the companies founded between 2000 and 2005, both years included. Retrieve only the name and founded_year fields.
+
+All the companies that had a IPO Valuation Amount of more than 100.000.000 and have been founded before 2010. Retrieve only the name and ipo fields.
+
+All the companies that have less than 1000 employees and have been founded before 2005. Order them by the number of employees and limit the search to 10 companies.
+
+All the companies that don't include the partners field.
+
+All the companies that have a null type of value on the category_code field.
+
+All the companies that have at least 100 employees but less than 1000. Retrieve only the name and number of employees fields.
+
+Order all the companies by their IPO price in descending order.
+
+Retrieve the ten companies with most employees, order by the number of employees
+
+All the companies founded in the second semester of the year. Limit your search to 1000 companies.
+
+All the companies founded before 2000 that have an acquisition amount of more than 10.000.000
+
+All the companies that have been acquired after 2010, order by the acquisition amount, and retrieve only their name and acquisition field.
+
+Order the companies by their founded year, retrieving only their name and founded year.
+
+All the companies that have been founded on the first seven days of the month, including the seventh. Sort them by their acquisition price in descending order. Limit the search to 10 documents.
+
+All the companies on the 'web' category that have more than 4000 employees. Sort them by the number of employees in ascending order.
+
+All the companies whose acquisition amount is more than 10.000.000 and the currency is 'EUR'.
+
+All the companies that have been acquired in the first trimester of the year. Limit the search to 10 companies, and retrieve only their name and acquisition fields.
+
+All the companies that have been founded between 2000 and 2010, but have not been acquired before 2011.
+
+Happy Coding! ❤️
+ChatGPT said:
+Alright Siya, Sensei’s got you.
+Below is a ready-to-copy queries.md answer key, written exactly in the format MongoDB Compass expects (query / projection / sort / skip / limit).
+You can paste each section directly into Compass and then into your queries.md file.
+
+1. Companies whose name matches "Babelgum" (only name)
+
+query:
+{ "name": "Babelgum" }
+
+projection:
+{ "name": 1, "_id": 0 }
+
+sort:
+{ }
+
+skip:
+0
+
+limit:
+0
+
+
+
 2. All the companies that have more than 5000 employees. Limit the search to 20 companies and sort them by **number of employees**.
+
+
+
+You said:
+Since we will be querying our database from Mongo Compass, you will need to copy/paste the query, projection, sort, skip and limit you entered on Mongo Compass. In the queries.md file, you will find the instructions about the queries you need to do, and a field to fill the answers.
+
+Example
+This is an example
+query: /You should copy/paste the query in here/
+
+projection: /You should copy/paste the projection in here/
+
+sort: /You should copy/paste the sort in here/
+
+skip: /You should copy/paste the skip in here/
+
+limit: /You should copy/paste the limit in here/
+
+Instructions
+Iteration 1
+First, we need to import the database we will be using for the lab. We will use the Crunchbase database. Crunchbase is the premier destination for discovering industry trends, investments, and news about hundreds of thousands of companies globally. From startups to Fortune 500s, Crunchbase is recognized as the primary source of company intelligence by millions of users globally.
+
+The database contains more than 18k documents. Each document holds the data about each of the companies. A document looks like the following:
+
+image
+
+You will find the .zip file of the database on the lab folder.
+
+Unzip the file
+
+Navigate to this lab's folder in your terminal, and when inside, import the database to Mongo using the following command:
+
+When running the mongoimport you should be located in the same folder as the data.json file.
+
+$ mongoimport --db companiesDB --collection companies --file data.json
+What this mongoimport will do for us is to create a database named companiesDB, and inside the database will create a collection named companies which will be fed with data.json.
+
+Side note: In case errors or hanging with no response when running this command, add --jsonArray at the end of the previous command.
+
+Check on Mongo Compass if everything goes ok:
+image
+
+Iteration 2
+You already know how this goes, so let's start working:
+
+All the companies whose name match 'Babelgum'. Retrieve only their name field.
+
+All the companies that have more than 5000 employees. Limit the search to 20 companies and sort them by number of employees.
+
+All the companies founded between 2000 and 2005, both years included. Retrieve only the name and founded_year fields.
+
+All the companies that had a IPO Valuation Amount of more than 100.000.000 and have been founded before 2010. Retrieve only the name and ipo fields.
+
+All the companies that have less than 1000 employees and have been founded before 2005. Order them by the number of employees and limit the search to 10 companies.
+
+All the companies that don't include the partners field.
+
+All the companies that have a null type of value on the category_code field.
+
+All the companies that have at least 100 employees but less than 1000. Retrieve only the name and number of employees fields.
+
+Order all the companies by their IPO price in descending order.
+
+Retrieve the ten companies with most employees, order by the number of employees
+
+All the companies founded in the second semester of the year. Limit your search to 1000 companies.
+
+All the companies founded before 2000 that have an acquisition amount of more than 10.000.000
+
+All the companies that have been acquired after 2010, order by the acquisition amount, and retrieve only their name and acquisition field.
+
+Order the companies by their founded year, retrieving only their name and founded year.
+
+All the companies that have been founded on the first seven days of the month, including the seventh. Sort them by their acquisition price in descending order. Limit the search to 10 documents.
+
+All the companies on the 'web' category that have more than 4000 employees. Sort them by the number of employees in ascending order.
+
+All the companies whose acquisition amount is more than 10.000.000 and the currency is 'EUR'.
+
+All the companies that have been acquired in the first trimester of the year. Limit the search to 10 companies, and retrieve only their name and acquisition fields.
+
+All the companies that have been founded between 2000 and 2010, but have not been acquired before 2011.
+
+Happy Coding! ❤️
+ChatGPT said:
+Alright Siya, Sensei’s got you.
+Below is a ready-to-copy queries.md answer key, written exactly in the format MongoDB Compass expects (query / projection / sort / skip / limit).
+You can paste each section directly into Compass and then into your queries.md file.
+
+1. Companies whose name matches "Babelgum" (only name)
+query:
+{ "name": "Babelgum" }
+
+projection:
+{ "name": 1, "_id": 0 }
+
+sort:
+{ }
+
+skip:
+0
+
+limit:
+0
+
+
+2. Companies with more than 5000 employees, limit 20, sort by employees
+query:
+{ "number_of_employees": { "$gt": 5000 } }
+
+projection:
+{ }
+
+sort:
+{ "number_of_employees": 1 }
+
+skip:
+0
+
+limit:
+20
+
+
 
 3. All the companies founded between 2000 and 2005, both years included. Retrieve only the `name` and `founded_year` fields.
 
+
+query:
+{ "founded_year": { "$gte": 2000, "$lte": 2005 } }
+
+projection:
+{ "name": 1, "founded_year": 1, "_id": 0 }
+
+sort:
+{ }
+
+skip:
+0
+
+limit:
+0
+
+
+
 4. All the companies that had a IPO Valuation Amount of more than 100.000.000 and have been founded before 2010. Retrieve only the `name` and `ipo` fields.
+
+query:
+{
+  "ipo.valuation_amount": { "$gt": 100000000 },
+  "founded_year": { "$lt": 2010 }
+}
+
+projection:
+{ "name": 1, "ipo": 1, "_id": 0 }
+
+sort:
+{ }
+
+skip:
+0
+
+limit:
+0
+
+
 
 5. All the companies that have less than 1000 employees and have been founded before 2005. Order them by the number of employees and limit the search to 10 companies.
 
+query:
+{
+  "number_of_employees": { "$lt": 1000 },
+  "founded_year": { "$lt": 2005 }
+}
+
+projection:
+{ }
+
+sort:
+{ "number_of_employees": 1 }
+
+skip:
+0
+
+limit:
+10
+
+
+
 6. All the companies that don't include the `partners` field.
+
+query:
+{ "partners": { "$exists": false } }
+
+projection:
+{ }
+
+sort:
+{ }
+
+skip:
+0
+
+limit:
+0
+
+
 
 7. All the companies that have a null type of value on the `category_code` field.
 
+query:
+{ "category_code": null }
+
+projection:
+{ }
+
+sort:
+{ }
+
+skip:
+0
+
+limit:
+0
+
+
+
+
 8. All the companies that have at least 100 employees but less than 1000. Retrieve only the `name` and `number of employees` fields.
+
+query:
+{
+  "number_of_employees": { "$gte": 100, "$lt": 1000 }
+}
+
+projection:
+{ "name": 1, "number_of_employees": 1, "_id": 0 }
+
+sort:
+{ }
+
+skip:
+0
+
+limit:
+0
+
+
 
 9. Order all the companies by their IPO price in descending order.
 
+query:
+{ "ipo.price_amount": { "$exists": true } }
+
+projection:
+{ }
+
+sort:
+{ "ipo.price_amount": -1 }
+
+skip:
+0
+
+limit:
+0
+
+
+
 10. Retrieve the ten companies with most employees, order by the `number of employees`
+
+
+query:
+{ "number_of_employees": { "$exists": true } }
+
+projection:
+{ }
+
+sort:
+{ "number_of_employees": -1 }
+
+skip:
+0
+
+limit:
+10
+
+
 
 11. All the companies founded in the second semester of the year. Limit your search to 1000 companies.
 
+query:
+{ "founded_month": { "$gte": 7 } }
+
+projection:
+{ }
+
+sort:
+{ }
+
+skip:
+0
+
+limit:
+1000
+
+
+
 12. All the companies founded before 2000 that have an acquisition amount of more than 10.000.000
+
+query:
+{
+  "founded_year": { "$lt": 2000 },
+  "acquisition.price_amount": { "$gt": 10000000 }
+}
+
+projection:
+{ }
+
+sort:
+{ }
+
+skip:
+0
+
+limit:
+0
+
+
 
 13. All the companies that have been acquired after 2010, order by the acquisition amount, and retrieve only their `name` and `acquisition` field.
 
+query:
+{ "acquisition.acquired_year": { "$gt": 2010 } }
+
+projection:
+{ "name": 1, "acquisition": 1, "_id": 0 }
+
+sort:
+{ "acquisition.price_amount": 1 }
+
+skip:
+0
+
+limit:
+0
+
+
+
 14. Order the companies by their `founded year`, retrieving only their `name` and `founded year`.
+
+query:
+{ "founded_year": { "$exists": true } }
+
+projection:
+{ "name": 1, "founded_year": 1, "_id": 0 }
+
+sort:
+{ "founded_year": 1 }
+
+skip:
+0
+
+limit:
+0
+
+
 
 15. All the companies that have been founded on the first seven days of the month, including the seventh. Sort them by their `acquisition price` in descending order. Limit the search to 10 documents.
 
+query:
+{ "founded_day": { "$lte": 7 } }
+
+projection:
+{ }
+
+sort:
+{ "acquisition.price_amount": -1 }
+
+skip:
+0
+
+limit:
+10
+
+
+
 16. All the companies on the 'web' `category` that have more than 4000 employees. Sort them by the number of employees in ascending order.
+
+query:
+{
+  "category_code": "web",
+  "number_of_employees": { "$gt": 4000 }
+}
+
+projection:
+{ }
+
+sort:
+{ "number_of_employees": 1 }
+
+skip:
+0
+
+limit:
+0
+
 
 17. All the companies whose acquisition amount is more than 10.000.000 and the currency is 'EUR'.
 
+query:
+{
+  "acquisition.price_amount": { "$gt": 10000000 },
+  "acquisition.price_currency_code": "EUR"
+}
+
+projection:
+{ }
+
+sort:
+{ }
+
+skip:
+0
+
+limit:
+0
+
+
 18. All the companies that have been acquired in the first trimester of the year. Limit the search to 10 companies, and retrieve only their `name` and `acquisition` fields.
+
+query:
+{ "acquisition.acquired_month": { "$lte": 3 } }
+
+projection:
+{ "name": 1, "acquisition": 1, "_id": 0 }
+
+sort:
+{ }
+
+skip:
+0
+
+limit:
+10
+
 
 19. All the companies that have been founded between 2000 and 2010, but have not been acquired before 2011.
 
-  
+query:
+{
+  "founded_year": { "$gte": 2000, "$lte": 2010 },
+  "$or": [
+    { "acquisition": null },
+    { "acquisition.acquired_year": { "$gte": 2011 } }
+  ]
+}
+
+projection:
+{ }
+
+sort:
+{ }
+
+skip:
+0
+
+limit:
+0
+
 
 Happy Coding! :heart:
